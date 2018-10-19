@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.ico"/>
     <link rel="stylesheet" href="assets/css/normalize.css">
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|News+Cycle" rel="stylesheet">
     <title>Lee Yang</title>
 </head>
 <body>
     <section id="about">
         <div class="text-container">
-            <h1>Hi</h1>
+            <img src="assets/images/self-2.jpg" class="main-img">
+            <h1 class="fadeInLoad">Hi</h1>
             <p>I'm a <strong>fullstack developer</strong>.</p>
             <p>
-                Recent grad of the <strong>Full Stack bootcamp</strong> program at Thinkful.
+                And a graduate of the <strong>Full Stack bootcamp</strong> program at Thinkful.
                 I'm into <strong>clean code</strong> and app designs that not only work but make sense.
                 Check out <strong>my portfolio</strong> to see my work.
-                <button id="more">More about me</button>
             </p>
-            <div class="bio-container hidden">
-                <h2>Bio</h2>
+            <div class="bio-container">
+                <h2 class="fadeIn">Bio</h2>
                 <p>
                     My friends have always been telling me that I should get into programming. For a while, I thought they were
                     joking. But at the beginning of 2018 I decided to give it a shot and I'm glad I did. I love making apps.
@@ -30,31 +36,124 @@
             </div>
         </div>
     </section>
-    <section id="work">
+    <section id="projects">
         <div class="text-container">
-            <h2>My Portfolio</h2>
-            <ul>
+            <h2 class="fadeIn">Projects</h2>
+            <ul class="projects">
                 <li>
-                    Bike Quiz App
+                    <h3>discCanvas</h3>
+                    <img src="assets/images/disccanvas.PNG" class="project-img">
+                    <p>Find inspiration for your next album design. Built with javascript & jQuery.</p>
+                    <p>
+                        <img src="assets/images/jquery.gif" class="icon">
+                        <img src="assets/images/javascript.jpg" class="icon">
+                    </p>
+                    <p>
+                        <a href="https://leesyang.github.io/discCanvas/" class="button-link" target="_blank">Demo</a>
+                        <a href="https://github.com/leesyang/discCanvas/" class="button-link" target="_blank">Code</a>
+                    </p>
                 </li>
                 <li>
-                    churchBand
+                    <h3>churchBand</h3>
+                    <img src="assets/images/churchband.png" class="project-img">
+                    <p>A plateform for band leaders to connect with bandmates. Recommend new songs and review previous sets. Built with javascript and jQuery.</p>
+                    <p>cB is currently deployed for use at a non-profit organization. I'm continuing to support it by fixing bugs and adding additional features.</p>
+                    <p>
+                        <img src="assets/images/jquery.gif" class="icon">
+                        <img src="assets/images/javascript.jpg" class="icon">
+                        <img src="assets/images/s3.png" class="icon">
+                        <img src="assets/images/heroku.png" class="icon">
+                        <img src="assets/images/node.png" class="icon">
+                        <img src="assets/images/express.png" class="icon-h">
+                        <img src="assets/images/mongodb.png" class="icon">
+                        <img src="assets/images/mongoose.png" class="icon-h">
+                        <img src="assets/images/bootstrap.png" class="icon">
+                    </p>
+                    <p>
+                        <a href="https://davisworship.herokuapp.com/" class="button-link" target="_blank">Demo</a>
+                        <a href="https://github.com/leesyang/churchBand" class="button-link" target="_blank">Code</a>
+                    </p>
                 </li>
                 <li>
-                    donePeriod
+                    <h3>donePeriod</h3>
+                    <img src="assets/images/doneperiod.PNG" class="project-img">
+                    <p>A React/Redux issue and project tracking app for your team. Stop worrying and get things done.</p>
+                    <p>
+                        <img src="assets/images/javascript.jpg" class="icon">
+                        <img src="assets/images/react.png" class='icon'>
+                        <img src="assets/images/redux.png" class="icon">
+                        <img src="assets/images/s3.png" class="icon">
+                        <img src="assets/images/heroku.png" class="icon">
+                        <img src="assets/images/node.png" class="icon">
+                        <img src="assets/images/express.png" class="icon-h">
+                        <img src="assets/images/mongodb.png" class="icon">
+                        <img src="assets/images/mongoose.png" class="icon-h">
+                    </p>
+                    <p>
+                        <a href="https://mighty-depths-77465.herokuapp.com/" class="button-link" target="_blank">Demo</a>
+                        <a href="https://github.com/leesyang/donePeriod-client" class="button-link" target="_blank">Code</a>
+                    </p>
                 </li>
             </ul>
         </div>
 
     </section>
+    <section id="experience">
+        <div class="text-container">
+            <h2 class="fadeIn">Experience</h2>
+            <p>Backend</p>
+            <ul class="skill-list">
+                <div class="ul-row">
+                    <li>Node.js</li>
+                    <li>Express</li>
+                </div>
+                <div class="ul-row">
+                    <li>MongoDB</li>
+                    <li>Mongoose</li>
+                </div>
+                <div class="ul-row">
+                    <li>Chai</li>
+                    <li>Mohca</li>
+                </div>
+            </ul>
+            <p>
+                <img src="assets/images/redux.png" class="icon-h">
+                <img src="assets/images/react.png" class="icon">
+                <img src="assets/images/node.png" class="icon">
+                <img src="assets/images/express.png" class="icon-h">
+            </p>
+            <p>FrontEnd</p>
+            <ul class="skill-list">
+                <div class="ul-row">
+                    <li>React</li>
+                    <li>Redux</li>
+                </div>
+                <div class="ul-row">
+                    <li>JQuery</li>
+                    <li>JavaScript</li>
+                </div>
+                <div class="ul-row">
+                    <li>Bootstrap</li>
+                    <li>CSS</li>
+                </div>
+            </ul>
+        </div>
+    </section>
     <section id="contact">
-
+        <div class="text-container inverted">
+            <p>Contact me: leesyang@gmail.com</p>
+            <p class="links">
+                <a href="mailto:leesyang@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
+                <a href="www.google.com"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://github.com/leesyang" target="_blank"><i class="fab fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/leeyanglinked/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </p> 
+        </div>
     </section>
     <script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-        crossorigin="anonymous">
-    </script>
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
     <script src="assets/js/index.js"></script>
 </body>
 </html>
