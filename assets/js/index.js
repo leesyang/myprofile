@@ -1,9 +1,12 @@
 $(document).ready(function() {
-    $('.fadeInLoad').animate({'opacity': '1'},1500)
-})
 
-$(document).ready(function() {
-    console.log('running')
+    $('.fadeInLoad').animate({'opacity': '1'}, 2500)
+
+    var top = document.getElementById('welcome');
+    setTimeout(function(){
+        top.scrollIntoView({ block: 'start', behavior: 'smooth'})
+    }, 2000);
+    
     /* Every time the window is scrolled ... */
     $(window).scroll(function(){
     
