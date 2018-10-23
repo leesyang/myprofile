@@ -37,7 +37,7 @@
 }
 
 .text-container p {
-    font-family: 'Roboto';
+    font-family: 'Source Sans Pro';
     font-size: 1.5em;
     letter-spacing: 4px;
     max-width: 90%;
@@ -62,7 +62,7 @@
 }
 
 .text-container li p {
-    font-family: 'Roboto';
+    font-family: 'Source Sans Pro';
     font-size: 1em;
     margin-bottom: 1em;
 }
@@ -80,6 +80,9 @@
 .bio-container {
     transition: all 0.5s ease-in-out;
 }
+.project-links {
+    text-align: center;
+}
 
 /* ----- logo icons ----- */
 .icon {
@@ -91,7 +94,7 @@
 
 
 .text-container .skill-list li {
-    font-family: 'Roboto';
+    font-family: 'Source Sans Pro';
     font-size: 1em;
     margin-bottom: 1em;
     display: block;
@@ -129,7 +132,9 @@
     background-color: black;
     padding-top: 1em;
     padding-bottom: 1em;
-    margin-top: 4em;
+}
+.inverted-img {
+    filter: invert(100%)
 }
 .inverted p {
     text-align: center;
@@ -172,15 +177,12 @@
         font-size: 2em;
     }
     .text-container p {
-        max-width: 100%;
-        font-size: 2em;
+        max-width: 70%;
+        font-size: 1.8em;
         text-align: center;
     }
     .ul-row {
         display: inline;
-    }
-    .text-container p {
-        font-size: 2em;
     }
     .inverted {
         max-width: 100%;
@@ -191,5 +193,6 @@
     }
     .text-container li p {
         max-width: 80%;
+        font-size: 1.2em;
     }
 }
