@@ -1,8 +1,13 @@
 $(document).ready(function() {
 
-    $('.fadeInLoad').animate({'opacity': '1'}, 2500)
+    $('.fadeInLoad').animate({'opacity': '1'}, 2500);
+
+    $('#about').click(function() {
+        $('.bio-container').fadeIn("slow");
+    })
 
     let top = document.getElementById('welcome');
+    
     setTimeout(function(){
         top.scrollIntoView({ block: 'start', behavior: 'smooth'})
     }, 2000);
@@ -28,3 +33,19 @@ $(document).ready(function() {
     });
     
 });
+
+let projects = document.getElementById('projects');
+let contact = document.getElementById('contact');
+let about = document.getElementById('about');
+
+$('#myprojects-button').click(function() {
+    projects.scrollIntoView({ behavior: 'smooth', block: 'start'});
+})
+
+$('#contact-button').click(function() {
+    contact.scrollIntoView({ behavior: 'smooth', block: 'start'});
+})
+
+$('#about-button').click(function() {
+    about.scrollIntoView({ behavior: 'smooth', block: 'start'});
+})
