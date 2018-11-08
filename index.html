@@ -11,41 +11,55 @@
         href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
         integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/devices.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Source+Sans+Pro" rel="stylesheet">
     <title>Lee Yang</title>
 </head>
 <body>
     <main role="main">
-        <section id="about">
+        <section>
             <div class="text-container">
-                <img src="assets/images/self-2.jpg" class="main-img" alt="">
-                <h1 class="fadeInLoad" id="welcome">Hi</h1>
-                <p>I'm a <strong>full stack web developer</strong>.</p>
-                <p>
-                    I'm always learning and eager to build apps that are useful to people and impact their lives in a positive way.
-                    I'm into <strong>clean code</strong> too because functionality matters.
-                    Check out <strong>my projects</strong> below.
-                </p>
-                <div class="bio-container">
-                    <h2 class="fadeIn">Bio</h2>
+                <div class="info-container">
+                    <h1>Lee Yang</h1>
                     <p>
-                        My friends have always been telling me that I should get into programming. For a while, I thought they were
-                        joking. In 2018 I decided to give it a try and I'm glad I did because I really enjoy building apps.
-                        Besides coding, I enjoy playing piano, singing, long hikes through Yosemite, and eating good food. KBBQ anyone?
+                    <strong>Full Stack Web Developer</strong><br>
+                    Building the web with the latest tools.<br>
+                    Front-End, Back-End, UI/UX. MERN.<br>
                     </p>
+                    <p class="icon-list">
+                        <img src="assets/images/redux.png" class="icon-h" alt="redux logo">
+                        <img src="assets/images/react.png" class="icon" alt="react logo">
+                        <img src="assets/images/node.png" class="icon" alt="node logo">
+                        <img src="assets/images/express.png" class="icon-h" alt="express logo">
+                    </p>
+                    <a id="about-button" class="button-link">About Me</a>
+                    <a id="myprojects-button" class="button-link">My Projects</a>
+                    <a id="contact-button" class="button-link">Contact</a>
                 </div>
             </div>
         </section>
         <section id="projects">
             <div class="text-container">
-                <h2 class="fadeIn">Projects</h2>
+                <h2>My Projects</h2>
                 <ul class="projects">
                     <li>
                         <h3>discCanvas</h3>
-                        <img src="assets/images/disccanvas.PNG" class="project-img" alt="discCanvas screenshot">
-                        <p>Find inspiration for your next album design. Built with javascript & jQuery.</p>
-                        <p>
+                        <div class="css-mb with-glare">
+                            <div class="mb-display-position">
+                                <div class="mb-display">
+                                <div class="mb-screen-position">
+                                    <div class="mb-screen">
+                                    <img src="assets/images/dc-covers.jpg" alt="example image" />
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="mb-body"></div>
+                            <div class="mb-bottom-cover"></div>
+                        </div>
+                        <p class="project-info">Find inspiration for your next album design. Built with javascript & jQuery.</p>
+                        <p class="icon-list">
                             <img src="assets/images/jquery.gif" class="icon" alt="jquery logo">
                             <img src="assets/images/javascript.jpg" class="icon" alt="javascript logo">
                         </p>
@@ -56,10 +70,22 @@
                     </li>
                     <li>
                         <h3>churchBand</h3>
-                        <img src="assets/images/churchband.png" class="project-img" alt="churchBand screenshot">
-                        <p>A platform for band leaders to connect with bandmates. Recommend new songs and review previous sets. Built with javascript and jQuery.</p>
-                        <p>cB is currently deployed for use at a non-profit organization. Support and development is ongoing.</p>
-                        <p>
+                        <div class="css-mb with-glare">
+                            <div class="mb-display-position">
+                                <div class="mb-display">
+                                <div class="mb-screen-position">
+                                    <div class="mb-screen">
+                                    <img src="assets/images/cd-sets.jpg" alt="example image" />
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="mb-body"></div>
+                            <div class="mb-bottom-cover"></div>
+                        </div>
+                        <p class="project-info">A platform for band leaders to connect with bandmates. Recommend new songs and review previous sets. Built with javascript and jQuery.</p>
+                        <p class="project-info">cB is currently deployed for use at a non-profit organization. Support and development is ongoing.</p>
+                        <p class="icon-list">
                             <img src="assets/images/jquery.gif" class="icon" alt="jquery logo">
                             <img src="assets/images/javascript.jpg" class="icon" alt="javascript logo">
                             <img src="assets/images/s3.png" class="icon" alt="amazon s3 logo">
@@ -77,9 +103,21 @@
                     </li>
                     <li>
                         <h3>donePeriod</h3>
-                        <img src="assets/images/doneperiod.PNG" class="project-img" alt="donePeriod logo">
-                        <p>A React/Redux project and issue tracking app for your team. Stop worrying and get things done.</p>
-                        <p>
+                        <div class="css-mb with-glare">
+                            <div class="mb-display-position">
+                                <div class="mb-display">
+                                <div class="mb-screen-position">
+                                    <div class="mb-screen">
+                                        <img src="assets/images/dp-ticket.JPG" alt="example image" />
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="mb-body"></div>
+                            <div class="mb-bottom-cover"></div>
+                        </div>
+                        <p class="project-info">A React/Redux project and issue tracking app for your team. Stop worrying and get things done.</p>
+                        <p class="icon-list">
                             <img src="assets/images/javascript.jpg" class="icon" alt="javascript logo">
                             <img src="assets/images/react.png" class='icon' alt="react.js logo">
                             <img src="assets/images/redux.png" class="icon" alt="redux.js logo">
@@ -99,50 +137,33 @@
             </div>
 
         </section>
-        <section id="experience">
-            <div class="text-container inverted">
-                <h2 class="fadeIn">Experience</h2>
-                <p>Backend</p>
-                <ul class="skill-list">
-                    <div class="ul-row">
-                        <li>Node.js</li>
-                        <li>Express</li>
-                    </div>
-                    <div class="ul-row">
-                        <li>MongoDB</li>
-                        <li>Mongoose</li>
-                    </div>
-                    <div class="ul-row">
-                        <li>Chai</li>
-                        <li>Mocha</li>
-                    </div>
-                </ul>
-                <p class="icon-list">
-                    <img src="assets/images/redux.png" class="icon-h" alt="redux logo">
-                    <img src="assets/images/react.png" class="icon" alt="react logo">
-                    <img src="assets/images/node.png" class="icon" alt="node logo">
-                    <img src="assets/images/express.png" class="icon-h inverted-img" alt="express logo">
+        <section id="about">
+            <div class="bio-container text-container">
+                <h2>Bio</h2>
+                <p>
+                    <img src="assets/images/self-2.jpg" class="main-img" alt="lee drinking coffee">
+                    I am a <strong>biological researcher</strong> turned <strong>full stack web developer</strong>.
+                    My friends have always been telling me that I should get into programming because I was always the <strong>'techy' guy</strong> in my group of friends.
+                    For a while, I thought they were joking. In 2018 I decided to give it a try and I'm glad I did because I really enjoy building apps.
                 </p>
-                <p>FrontEnd</p>
-                <ul class="skill-list">
-                    <div class="ul-row">
-                        <li>React</li>
-                        <li>Redux</li>
-                    </div>
-                    <div class="ul-row">
-                        <li>JQuery</li>
-                        <li>JavaScript</li>
-                    </div>
-                    <div class="ul-row">
-                        <li>Bootstrap</li>
-                        <li>CSS</li>
-                    </div>
-                </ul>
+                <br>
+                <p>
+                    As a junior developer, my focus right now is trying to learn as much as I can and apply my skills. Some cloud services that I'm interested in are AWS, Azure, and Google Cloud.
+                    On my spare time, I am also learning Java so that I can one day build apps for mobile as well. Some databases that I'm exploring right now are 
+                    PostgreSQL, mySQL, and DynamoDB. In terms of web technologies, I am familiar with (or will be familiar with :) Angular and AngularJS, .NET, and Java Servers.
+                </p>
+                <br>
+                <p>
+                    Besides coding, I enjoy playing piano, singing, long hikes through Yosemite, and eating good food. KBBQ anyone?
+                </p>
             </div>
         </section>
         <footer id="contact" role="contentinfo">
-            <div class="text-container inverted">
-                <p>Contact me: leesyang@gmail.com</p>
+            <div class="text-container contact">
+                <p>
+                    Contact me: leesyang@gmail.com
+                </p>
+                <p><a href="#">Resume</a></p>
                 <p class="links">
                     <a href="mailto:leesyang@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
                     <a href="https://twitter.com/LeeSYang2"><i class="fab fa-twitter-square"></i></a>
